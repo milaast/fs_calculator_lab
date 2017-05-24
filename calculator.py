@@ -31,5 +31,14 @@ def calculator():
         elif tokenized_input[0] == 'square':
             square_function = square(int(tokenized_input[1]))
             print square_function
+        elif tokenized_input[0] == 'cube':
+            cube_function = cube(int(tokenized_input[1]))
+            print cube_function
+        elif tokenized_input[0] == 'pow':
+            power_function = power(int(tokenized_input[1]), int(tokenized_input[2]))
+            print power_function
+        elif tokenized_input[0] == 'mod':
+            mod_function = mod(int(tokenized_input[1]), int(tokenized_input[2]))
+            print mod_function
 
 calculator()
