@@ -20,7 +20,7 @@ def calculator():
 
         sliced_ti = int(tokenized_input[1:])
             # make each item on the list its own thing?? Assign each
-            #to a different variable??
+            #to a different variable???
         tokenized_input[1:].append(sliced_ti)
 
         if tokenized_input[0] == 'q':
